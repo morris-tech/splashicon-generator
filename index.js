@@ -23,14 +23,14 @@ var getPlatformIcons = function() {
         iconsPath: 'resources/windows/icon/',
         isAdded: true,
         icons: [
-            { name:'Square150x150Logo.png', size:150 },
             { name:'Square30x30Logo.png', size:30 },
-            { name:'Square310x310Logo.png', size:310 },
             { name:'Square44x44Logo.png', size:44 },
             { name:'Square70x70Logo.png', size:70 },
             { name:'Square71x71Logo.png', size:71 },
-            { name:'StoreLogo.png', size:50 },
+            { name:'Square150x150Logo.png', size:150 },
+            { name:'Square310x310Logo.png', size:310 },
             { name:'Wide310x150Logo.png', size:310 },
+            { name:'storelogo.png', size:50 },
         ]
     });
 

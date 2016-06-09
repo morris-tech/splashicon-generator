@@ -4,20 +4,20 @@ _Begin Morris Tech changes:_
 
 Used only for generating icon and splash resources to be used in windows deployment. Capability for generating resources for other platforms has been stripped.
 
-Include ```https://github.com/morris-tech/splashicon-generator``` in project ```package.json```
+Include ```https://github.com/morris-tech/splashicon-generator``` as a dependency in project ```package.json```
 
 In your Ionic project's ```config.xml``` include:
 
 ```xml
 <platform name="windows">
-    <icon src="res/windows/storelogo.png" target="StoreLogo" />
-    <icon src="res/windows/smalllogo.png" target="Square30x30Logo" />
-    <icon src="res/Windows/Square44x44Logo.png" target="Square44x44Logo" />
-    <icon src="res/Windows/Square70x70Logo.png" target="Square70x70Logo" />
-    <icon src="res/Windows/Square71x71Logo.png" target="Square71x71Logo" />
-    <icon src="res/Windows/Square150x150Logo.png" target="Square150x150Logo" />
-    <icon src="res/Windows/Square310x310Logo.png" target="Square310x310Logo" />
-    <icon src="res/Windows/Wide310x150Logo.png" target="Wide310x150Logo" />
+    <icon src="resources/windows/storelogo.png" target="StoreLogo" />
+    <icon src="resources/windows/Square30x30Logo.png" target="Square30x30Logo" />
+    <icon src="resources/windows/Square44x44Logo.png" target="Square44x44Logo" />
+    <icon src="resources/windows/Square70x70Logo.png" target="Square70x70Logo" />
+    <icon src="resources/windows/Square71x71Logo.png" target="Square71x71Logo" />
+    <icon src="resources/windows/Square150x150Logo.png" target="Square150x150Logo" />
+    <icon src="resources/windows/Square310x310Logo.png" target="Square310x310Logo" />
+    <icon src="resources/windows/Wide310x150Logo.png" target="Wide310x150Logo" />
 </platform>
 ```
 

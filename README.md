@@ -1,5 +1,28 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPBTHKNBECBQL)
 
+_Begin Morris Tech changes:_
+
+Used only for generating icon and splash resources to be used in windows deployment. Capability for generating resources for other platforms has been stripped.
+
+Include ```https://github.com/morris-tech/splashicon-generator``` in project ```package.json```
+
+In your Ionic project's ```config.xml``` include:
+
+```xml
+<platform name="windows">
+    <icon src="res/windows/storelogo.png" target="StoreLogo" />
+    <icon src="res/windows/smalllogo.png" target="Square30x30Logo" />
+    <icon src="res/Windows/Square44x44Logo.png" target="Square44x44Logo" />
+    <icon src="res/Windows/Square70x70Logo.png" target="Square70x70Logo" />
+    <icon src="res/Windows/Square71x71Logo.png" target="Square71x71Logo" />
+    <icon src="res/Windows/Square150x150Logo.png" target="Square150x150Logo" />
+    <icon src="res/Windows/Square310x310Logo.png" target="Square310x310Logo" />
+    <icon src="res/Windows/Wide310x150Logo.png" target="Wide310x150Logo" />
+</platform>
+```
+
+_End Morris Tech changes_
+
 # splashicon-generator
 
 Automatic icon and splash screen resizing for PhoneGap. Create an icon in the root folder of your PhoneGap project and use ```icon.png``` and a ```splash.png``` to automatically resize and copy it for all the platforms your project supports (currently works with **iOS**, **Android** and **Windows Phone 8**).

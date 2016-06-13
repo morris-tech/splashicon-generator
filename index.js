@@ -32,8 +32,6 @@ var getPlatformIcons = function() {
             { name:'Square71x71Logo.scale-240.png', size:170 },
             { name:'StoreLogo.scale-100.png', size:50 },
             { name:'StoreLogo.scale-240.png', size:120 },
-            { name:'Wide310x150Logo.scale-100.png', size:310 },
-            { name:'Wide310x150Logo.scale-240.png', size:744 },
         ]
     });
 
@@ -62,6 +60,17 @@ var getPlatformSplashs = function() {
             { width:620, height:300, name:"SplashScreen.scale-100.png" },
             { width:1152, height:1920, name:"SplashScreen.scale-240.png" },
             { width:1152, height:1920, name:"SplashScreenPhone.scale-240.png" },
+        ]
+    });
+
+    //ok
+    platforms.push({
+        name: 'windows_wide',
+        isAdded: true,
+        splashPath: 'resources/windows/icon/',
+        splash: [
+            { width: 310, height: 150, name:"Wide310x150Logo.scale-100.png" },
+            { width: 744, height: 360, name:"Wide310x150Logo.scale-240.png" },
         ]
     });
 

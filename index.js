@@ -109,8 +109,8 @@ var getPlatformSplashs = function() {
  * TODO: add option to get these values as CLI params
  */
 var settings = {};
-settings.ICON_FILE = path.join('model', 'icon.png');
-settings.SPLASH_FILE = path.join('model', 'splash.png');
+settings.ICON_FILE = path.join('resources', 'icon.png');
+settings.SPLASH_FILE = path.join('resources', 'splash.png');
 
 /**
  * @var {Object} console utils

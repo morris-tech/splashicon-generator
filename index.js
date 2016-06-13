@@ -23,17 +23,34 @@ var getPlatformIcons = function() {
         iconsPath: 'resources/windows/icon/',
         isAdded: true,
         icons: [
-            { name:'Square150x150Logo.scale-100.png', size:150 },
-            { name:'Square150x150Logo.scale-240.png', size:360 },
             { name:'Square30x30Logo.scale-100.png', size:30 },
-            { name:'Square310x310Logo.scale-100.png', size:310 },
+            { name:'Square30x30Logo.scale-200.png', size:60 },
+            { name:'Square30x30Logo.scale-240.png', size:72 },
+            { name:'Square30x30Logo.scale-400.png', size:120 },
             { name:'Square44x44Logo.scale-100.png', size:44 },
+            { name:'Square44x44Logo.scale-200.png', size:88 },
             { name:'Square44x44Logo.scale-240.png', size:106 },
+            { name:'Square44x44Logo.scale-400.png', size:176 },
             { name:'Square70x70Logo.scale-100.png', size:70 },
+            { name:'Square70x70Logo.scale-200.png', size:140 },
+            { name:'Square70x70Logo.scale-240.png', size:168 },
+            { name:'Square70x70Logo.scale-400.png', size:280 },
             { name:'Square71x71Logo.scale-100.png', size:71 },
+            { name:'Square71x71Logo.scale-200.png', size:142 },
             { name:'Square71x71Logo.scale-240.png', size:170 },
+            { name:'Square71x71Logo.scale-400.png', size:284 },
+            { name:'Square150x150Logo.scale-100.png', size:150 },
+            { name:'Square150x150Logo.scale-200.png', size:300 },
+            { name:'Square150x150Logo.scale-240.png', size:360 },
+            { name:'Square150x150Logo.scale-400.png', size:600 },
+            { name:'Square310x310Logo.scale-100.png', size:310 },
+            { name:'Square310x310Logo.scale-200.png', size:620 },
+            { name:'Square310x310Logo.scale-240.png', size:744 },
+            { name:'Square310x310Logo.scale-400.png', size:1240 },
             { name:'StoreLogo.scale-100.png', size:50 },
+            { name:'StoreLogo.scale-200.png', size:100 },
             { name:'StoreLogo.scale-240.png', size:120 },
+            { name:'StoreLogo.scale-400.png', size:200 },
         ]
     });
 
@@ -60,8 +77,13 @@ var getPlatformSplashs = function() {
         splashPath: 'resources/windows/splash/',
         splash: [
             { width:620, height:300, name:"SplashScreen.scale-100.png" },
-            { width:1152, height:1920, name:"SplashScreen.scale-240.png" },
+            { width:1240, height:600, name:"SplashScreen.scale-200.png" },
+            { width:1488, height:720, name:"SplashScreen.scale-240.png" },
+            { width:2480, height:1200, name:"SplashScreen.scale-400.png" },
+            { width:480, height:800, name:"SplashScreenPhone.scale-100.png" },
+            { width:960, height:1600, name:"SplashScreenPhone.scale-200.png" },
             { width:1152, height:1920, name:"SplashScreenPhone.scale-240.png" },
+            { width:1920, height:3200, name:"SplashScreenPhone.scale-400.png" },
         ]
     });
 
@@ -72,7 +94,9 @@ var getPlatformSplashs = function() {
         splashPath: 'resources/windows/icon/',
         splash: [
             { width: 310, height: 150, name:"Wide310x150Logo.scale-100.png" },
+            { width: 620, height: 300, name:"Wide310x150Logo.scale-200.png" },
             { width: 744, height: 360, name:"Wide310x150Logo.scale-240.png" },
+            { width: 1240, height: 600, name:"Wide310x150Logo.scale-400.png" },
         ]
     });
 

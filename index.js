@@ -75,14 +75,10 @@ var getPlatformSplashs = function() {
         isAdded: true,
         splashPath: 'resources/windows/splash/',
         splash: [
-            /*{ width:620, height:300, name:"SplashScreen.scale-100.png" },
+            { width:620, height:300, name:"SplashScreen.scale-100.png" },
             { width:1240, height:600, name:"SplashScreen.scale-200.png" },
             { width:1488, height:720, name:"SplashScreen.scale-240.png" },
-            { width:2480, height:1200, name:"SplashScreen.scale-400.png" },*/
-            { width:300, height:620, name:"SplashScreen.scale-100.png" },
-            { width:600, height:1240, name:"SplashScreen.scale-200.png" },
-            { width:720, height:1488, name:"SplashScreen.scale-240.png" },
-            { width:1200, height:2480, name:"SplashScreen.scale-400.png" },
+            { width:2480, height:1200, name:"SplashScreen.scale-400.png" },
             { width:480, height:800, name:"SplashScreenPhone.scale-100.png" },
             { width:960, height:1600, name:"SplashScreenPhone.scale-200.png" },
             { width:1152, height:1920, name:"SplashScreenPhone.scale-240.png" },

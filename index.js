@@ -46,7 +46,6 @@ var getPlatformIcons = function() {
             { name:'Square310x310Logo.scale-100.png', size:310 },
             { name:'Square310x310Logo.scale-200.png', size:620 },
             { name:'Square310x310Logo.scale-240.png', size:744 },
-            { name:'Square310x310Logo.scale-400.png', size:1240 },
             { name:'StoreLogo.scale-100.png', size:50 },
             { name:'StoreLogo.scale-200.png', size:100 },
             { name:'StoreLogo.scale-240.png', size:120 },
@@ -96,7 +95,6 @@ var getPlatformSplashs = function() {
             { width: 310, height: 150, name:"Wide310x150Logo.scale-100.png" },
             { width: 620, height: 300, name:"Wide310x150Logo.scale-200.png" },
             { width: 744, height: 360, name:"Wide310x150Logo.scale-240.png" },
-            { width: 1240, height: 600, name:"Wide310x150Logo.scale-400.png" },
         ]
     });
 

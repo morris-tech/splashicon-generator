@@ -10,7 +10,7 @@ In your Ionic project's ```config.xml``` include:
 
 ```xml
 <platform name="windows">
-    <icon src="resources/windows/storelogo.png" target="StoreLogo" />
+    <icon src="resources/windows/StoreLogo.png" target="StoreLogo" />
     <icon src="resources/windows/Square30x30Logo.png" target="Square30x30Logo" />
     <icon src="resources/windows/Square44x44Logo.png" target="Square44x44Logo" />
     <icon src="resources/windows/Square70x70Logo.png" target="Square70x70Logo" />

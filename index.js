@@ -27,7 +27,7 @@ var getPlatformIcons = function() {
             { name:'Square150x150Logo.scale-240.png', size:360 },
             { name:'Square30x30Logo.scale-100.png', size:30 },
             { name:'Square310x310Logo.scale-100.png', size:310 },
-            { name:'Square44x44Logo.scale-240.png', size:44 },
+            { name:'Square44x44Logo.scale-100.png', size:44 },
             { name:'Square44x44Logo.scale-240.png', size:106 },
             { name:'Square70x70Logo.scale-100.png', size:70 },
             { name:'Square71x71Logo.scale-100.png', size:71 },
